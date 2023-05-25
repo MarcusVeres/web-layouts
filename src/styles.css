@@ -3,6 +3,9 @@
 @tailwind utilities; 
 
 @layer base {
+    body {
+        @apply bg-blue-400;
+    }
     p {
         @apply mb-2;
     }

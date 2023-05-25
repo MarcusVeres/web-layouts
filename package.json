@@ -9,7 +9,8 @@
     "watch:css": "nodemon --ext css --watch src --exec \"npm run build:css\"",
     "watch:html": "nodemon --ext html --watch src/pages --exec \"npm run copy:html\"",
     "serve": "live-server docs",
-    "start": "npm run serve"
+    "watch": "run-p watch:*",
+    "start": "run-p build:css copy:html watch serve"
   },
     "repository": {
     "type": "git",

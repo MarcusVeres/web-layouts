@@ -28,6 +28,7 @@
   "homepage": "https://github.com/MarcusVeres/layout-showcase#readme",
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
     "live-server": "^1.2.2",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",

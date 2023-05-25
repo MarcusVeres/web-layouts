@@ -7,10 +7,10 @@
     "build:css": "postcss src/styles.css -o docs/styles.css",
     "copy:html": "node copy-html.js",
     "watch:css": "nodemon --ext css --watch src --exec \"npm run build:css\"",
-    "watch:html": "nodemon --ext html --watch src/pages --exec \"npm run copy:html\"",
+    "watch:html": "nodemon --ext html --watch src/pages --exec \"npm run copy:html && npm run build:css\"",
     "serve": "live-server docs",
     "watch": "run-p watch:*",
-    "start": "run-p build:css copy:html watch serve"
+    "start": "run-p build:css copy:html serve watch"
   },
     "repository": {
     "type": "git",

@@ -4,6 +4,9 @@
   "description": "Different layout designs with CSS",
   "main": "index.js",
   "scripts": {
+    "build": "postcss src/styles.css -o docs/styles.css",
+    "watch": "postcss src/styles.css -o docs/styles.css --watch",
+    "serve": "live-server docs",
     "test": "test"
   },
   "repository": {

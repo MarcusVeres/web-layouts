@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+    p {
+        @apply mb-2;
+    }
+}
+
+@layer components {
+    .glass {
+        @apply text-gray-100 bg-gray-900 border border-gray-600 bg-opacity-40 backdrop-filter backdrop-blur-md;
+    }
+}

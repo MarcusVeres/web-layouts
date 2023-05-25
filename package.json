@@ -1,0 +1,26 @@
+{
+  "name": "layout-showcase",
+  "version": "1.0.0",
+  "description": "Different layout designs with CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusVeres/layout-showcase.git"
+  },
+  "keywords": [
+    "css",
+    "design",
+    "layout",
+    "ui",
+    "ux"
+  ],
+  "author": "Marcus Veres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcusVeres/layout-showcase/issues"
+  },
+  "homepage": "https://github.com/MarcusVeres/layout-showcase#readme"
+}

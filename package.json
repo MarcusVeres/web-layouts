@@ -12,7 +12,7 @@
     "watch": "run-p watch:*",
     "start": "run-p build:css copy:html serve watch"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcusVeres/gh-pages-tailwind-quickstart.git"
   },

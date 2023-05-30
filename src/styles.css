@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-green-500;
+        @apply bg-gray-500;
     }
     p {
         @apply mb-2;

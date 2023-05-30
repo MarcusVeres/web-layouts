@@ -1,18 +1,16 @@
 const fs = require('fs');
+const fse = require('fs-extra');
 const path = require('path');
 
-function copyHTML(src, dest) {
-    fs.readdirSync(src).forEach(file => {
-        const srcFile = path.join(src, file);
-        const destFile = path.join(dest, file);
-
-        if (fs.statSync(srcFile).isDirectory()) {
-            fs.mkdirSync(destFile, { recursive: true });
-            copyHTML(srcFile, destFile);
-        } else if (file.endsWith('.html')) {
-            fs.copyFileSync(srcFile, destFile);
+function copyFiles(dir) {
+    fse.copy(`./src/${dir}`, `./docs/${dir}`, function(err) {
+        if (err) {
+            console.error(err);
+        } else {
+            console.log(`Successfully copied the ${dir} directory`);
         }
     });
 }
 
-copyHTML(path.join(__dirname, 'src/pages'), path.join(__dirname, 'docs'));
+copyFiles('pages');
+copyFiles('assets');

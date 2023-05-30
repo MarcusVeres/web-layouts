@@ -10,14 +10,16 @@ Quickly set up single-to-several page websites using TailwindCSS and Github Page
 
 This repo aims to save you some trouble when starting a new project. You do your work in the `/src/` folder, and any changes that are detected will be exported to the `/docs/` folder. The `/docs/` folder uses a flat file structure to keep linking simple.
 
-**Compatibility is priority #1.** The libraries used in this project were tested on Linux, Mac and Windows systems. Libraries like `nodemon` and quotes are escaped (like this: `\"`) to ensure the scripts will run on more finicky setups. If you find a better/faster way to do things that works on your system, I salute you.
+_Compatibility is priority #1._ The libraries used in this project were tested on Linux, Mac and Windows systems. Libraries like `nodemon` and quotes are escaped (like this: `\"`) to ensure the scripts will run on more finicky setups. If you find a better/faster way to do things that works on your system, I salute you.
 
 ### Quick Start
 
-1. Clone this repo to your local machine.
-1. Open the root folder in your favorite IDE.
-1. Open a terminal window and run `npm run start`.
+1. Open a terminal window. and clone this repo.
+1. Run `npm install`.
+1. Run `npm run start`.
+1. Open the project in your favorite IDE.
 1. Start coding in the `/src` directory.
+1. The `start` script will automatically update your `docs/` folder and refresh the server.
 1. Push your changes to your repo.
 1. Enable Github Pages for your project.
 

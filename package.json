@@ -1,5 +1,5 @@
 {
-  "name": "gh-pages-tailwind-quickstart",
+  "name": "web-layouts",
   "version": "1.0.0",
   "description": "Different layout designs with CSS",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarcusVeres/gh-pages-tailwind-quickstart.git"
+    "url": "git+https://github.com/MarcusVeres/web-layouts.git"
   },
   "keywords": [
     "css",
@@ -26,9 +26,9 @@
   "author": "Marcus Veres",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarcusVeres/gh-pages-tailwind-quickstart/issues"
+    "url": "https://github.com/MarcusVeres/web-layouts/issues"
   },
-  "homepage": "https://github.com/MarcusVeres/gh-pages-tailwind-quickstart#readme",
+  "homepage": "https://github.com/MarcusVeres/web-layouts",
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",

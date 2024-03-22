@@ -9,86 +9,13 @@
     <!-- 📣 Mandatory for Good SEO -->
     <title>How to Center a DIV</title>
 
-    <!-- 🎫 Site Icons -->
-    <link href="static/images/favicon.png" rel="shortcut icon" />
-    <link
-      href="static/images/touch-icon.png"
-      rel="apple-touch-icon image_src"
-      sizes="144x144"
-    />
-
     <!-- ⚙ Device Meta-->
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <!-- 📋 SEO -->
-    <meta content="Description about site" name="description" />
-    <meta content="Name of author" name="author" />
-    <meta content="index, follow" name="robots" />
-
-    <!-- 📱 PWA, updates colour of app bar on devices, generally brand primary colour -->
-    <!--
-    <meta content="#fafafa" name="theme-color" />
-    <link href="static/manifest.json" rel="manifest" />
-        -->
-
-    <!-- 👨‍💻👩‍💻 A plain text file that tells other humans about the humans that built your website -->
-    <link href="static/humans.txt" rel="author" type="text/plain" />
-
-    <!-- Language - helps Google with determine which localized content to serve a user from a different region -->
-    <link rel="”alternate”" hreflang="" />
-
-    <!-- 🐦 Twitter -->
-    <meta
-      content="site title"
-      itemprop="name"
-      name="twitter:title"
-      property="og:title"
-    />
-    <meta content="summary" name="twitter:card" />
-    <meta content="yourdomain.com" name="twitter:domain" />
-    <meta
-      content="description of site"
-      itemprop="description"
-      name="twitter:description"
-      property="og:description"
-    />
-    <meta content="@twitter_handle_of_site" name="twitter:site" />
-    <meta content="@twitter_handle_of_author" name="twitter:creator" />
-
-    <!-- 📰 Opengraph: Facebook, LinkedIn, Pinterest -->
-    <meta content="site title" property="og:title" />
-    <meta content="site title" property="og:site_name" />
-    <meta content="website" property="og:type" />
-    <meta content="site url" property="og:url" />
-    <meta
-      content="static/images/site-share.jpg"
-      itemprop="image primaryImageOfPage"
-      property="og:image"
-    />
-
-    <!-- Suggested image size for og:image -->
-    <meta content="1200" property="og:image:width" />
-    <meta content="1200" property="og:image:height" />
-
-    <meta content="en-US" property="og:locale" />
-    <meta content="site description" property="og:description" />
-
-    <!-- 😌 Scripts added to the head should get async or defer -->
-    <!--
-    <script async src="scripts/path-to-library"></script>
-    <script defer src="scripts/path-to-library"></script>
-    -->
-
     <!-- 😌 CSS from external sites like CDN - we tell the browser to resolve DNS quickly with rel="dns-prefetch" -->
     <link rel="dns-prefetch" href="css/path-to-css" />
 
-    <!-- 😌 Grab asset and cache it, can be <img /> or <script> too
-             Using Sanitize.css here by Jonathan T Neal.
-        -->
-    <!-- doesn't seem to work
-    <link as="style" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -102,8 +29,8 @@
     />
 
     <!-- TailwindCSS and Custom CSS (written by the Moonlit team). -->
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../make-it-styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="make-it-styles.css" />
     <style>
       /* Unable to compile RN -- saving time */
       #size-adjuster {

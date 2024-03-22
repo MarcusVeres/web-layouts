@@ -102,6 +102,7 @@
     />
 
     <!-- TailwindCSS and Custom CSS (written by the Moonlit team). -->
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../make-it-styles.css" />
     <style>
       /* Unable to compile RN -- saving time */
@@ -120,7 +121,7 @@
   </head>
 
   <body
-    class="bg-gray-100 dark:bg-gray-900 sitename debug-screens"
+    class="text-gray-600 bg-gray-100 dark:bg-gray-900 sitename debug-screens"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
@@ -142,6 +143,12 @@
       <nav>
         <input type="search" />
       </nav>
+      <!-- Back to Index Button -->
+      <a
+        class="absolute top-0 right-0 px-4 pt-2 pb-4 text-white transition-colors duration-300 ease-out border-gray-900 rounded-bl-lg bg-gray-950 hover:bg-gray-800"
+        href="index.html"
+        >&laquo; Back to Index</a
+      >
     </header>
 
     <!-- Design with grid, since it's easier... then refactor with flex for compatibility -->
@@ -266,10 +273,10 @@
       <div
         class="container grid max-w-6xl grid-cols-12 gap-4 p-2 mx-auto bg-white rounded-xl"
       >
-        <div class="col-span-12 ">
+        <div class="col-span-12">
           <h2 class="">Comments</h2>
         </div>
-        <div class="col-span-12 ">1</div>
+        <div class="col-span-12">1</div>
         <div class="col-span-12 md:col-span-6">2</div>
         <div class="col-span-12 md:col-span-6">3</div>
       </div>
@@ -281,8 +288,5 @@
 
     <!-- This should contain the minimal amount of JS -->
     <script src="../make-it-scripts.js"></script>
-
-        <!-- Back to Index Button -->
-        <a class="absolute top-0 right-0 px-4 pt-2 pb-4 text-white transition-colors duration-300 ease-out border-gray-900 rounded-bl-lg bg-gray-950 hover:bg-gray-800" href="index.html">&laquo; Back to Index</li>
   </body>
 </html>

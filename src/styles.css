@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply text-gray-400 bg-cover bg-center bg-no-repeat bg-[url('./assets/background.webp')];
+        @apply text-gray-400 bg-center bg-no-repeat bg-cover;
     }
     p {
         @apply mb-2;
@@ -15,4 +15,14 @@
     .glass {
         @apply text-gray-100 bg-gray-900 border border-gray-600 bg-opacity-40 backdrop-filter backdrop-blur-md;
     }
+
+    .site-buttons > * {
+        @apply block px-6 py-3 my-3 transition-all duration-300 bg-opacity-50 rounded-md bg-slate-500 hover:bg-slate-400;
+    }
+    .site-buttons > *:nth-child(1) { @apply bg-green-600 bg-opacity-50 hover:bg-opacity-100; }
+    .site-buttons > *:nth-child(2) { @apply bg-teal-600 bg-opacity-50 hover:bg-opacity-100; }
+    .site-buttons > *:nth-child(3) { @apply bg-blue-600 bg-opacity-50 hover:bg-opacity-100; }
+    .site-buttons > *:nth-child(4) { @apply bg-purple-600 bg-opacity-50 hover:bg-opacity-100; }
+    .site-buttons > *:nth-child(5) { @apply bg-pink-600 bg-opacity-50 hover:bg-opacity-100; }
+    
 }
